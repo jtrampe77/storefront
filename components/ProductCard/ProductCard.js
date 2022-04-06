@@ -12,6 +12,7 @@ function ProductCard ({children, product, ...props})  {
               alt={productName} 
               width={418}
               height={240}
+              quality={50}
             />
          </header>
          <p className={name}>{productName}</p>
