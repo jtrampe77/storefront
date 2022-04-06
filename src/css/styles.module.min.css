@@ -1,2 +1,2 @@
-.user{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:2rem auto}.user h2{padding:.5rem 1rem;color:#9ca3af;box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);border-radius:3px}
+.productCard{max-width:420px;margin:2rem auto}.productCard footer{margin:1rem 0}.productCard button{border:none;background-color:darkred;color:#fff;font-weight:bold;padding:.5rem 1rem;border-radius:4px}.productCard img{width:100%}.name{font-size:2rem;font-weight:bold}.size{font-size:1.125rem}.priceSizeSection{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem}.price{font-size:1.125rem}.description{font-size:1rem;color:#d3d3d3}
 /*# sourceMappingURL=styles.module.min.css.map */
