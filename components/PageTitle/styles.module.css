@@ -1,17 +1,19 @@
  .pageTitle {
      text-align: center;
-     margin: 4rem 0 0;
+     margin: 4rem 0;
+     padding-bottom: 2rem;
+     border-bottom: 3px solid black;
  }
  
  .pageTitle h1 {
-     font-size: clamp(4rem, 15vw, 10rem);
+     font-size: clamp(4rem, 15vw, 5rem);
      font-weight: 800;
      color: #9f1239;
      line-height: 1;
  }
  
  .pageTitle p {
-     font-size: clamp(1rem, 4vw, 2rem);
+     font-size: clamp(1rem, 4vw, 1.5rem);
      font-weight: 600;
-     color: #5b21b6;
+     color: #000;
  }

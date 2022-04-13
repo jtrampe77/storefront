@@ -405,3 +405,11 @@ body {
     text-align: left;
     background-color: #fff;
 }
+
+main {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 70%;
+    margin: 0 auto;
+}
