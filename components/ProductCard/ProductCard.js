@@ -3,7 +3,7 @@ import Image from 'next/image';
 import {productCard,name,price,description,size,priceSizeSection} from './styles.module.scss'
 
 function ProductCard ({children, product, ...props})  {
-  const {productName, productPrice, productDescription, productSize, imageUrl} = {...product}
+  const {productName, productPrice, productDescription, productSize, imageUrl, uid} = {...product}
   return (
        <aside className={productCard}>
          <header>
@@ -25,7 +25,7 @@ function ProductCard ({children, product, ...props})  {
 
          <footer>
            <form action="/api/checkout" method="POST">
-             <input type="hidden" name="uid" value="uid" />
+             <input type="hidden" name="uid" value={uid} />
              <button type="submit">Buy Now</button>
            </form>
          </footer>

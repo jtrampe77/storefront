@@ -1,53 +1,6 @@
-.productCard {
-  max-width: 420px;
-  margin: 2rem auto;
-  box-shadow: 2px 0 3px 0 black;
-  border-radius: 3px;
-  padding: 3rem;
-}
-.productCard:hover {
-  transform: scale(1.05);
-}
-.productCard footer {
-  margin: 1rem 0;
-}
-.productCard button {
-  border: none;
-  background-color: darkred;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-}
-.productCard button:hover {
-  background-color: black;
-}
-.productCard img {
-  width: 100%;
-}
-
-.name {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.size {
-  font-size: 1.125rem;
-}
-
-.priceSizeSection {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-.price {
-  font-size: 1.125rem;
-}
-
-.description {
-  font-size: 1rem;
-  color: lightgrey;
+.footer {
+  border-top: 3px solid black;
+  padding: 5rem;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.module.css.map */

@@ -6,6 +6,7 @@ import ProductCard from "../components/ProductCard/ProductCard"
 
 
 
+
 export default function Home(props) {
   
    const products = props.products
@@ -19,17 +20,19 @@ export default function Home(props) {
      <>
      <Head>
         <meta charset="UTF-8" />
-        
+        {/* <meta http-equiv="X-UA-Compatible" content="IE=edge" /> */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>SneakerHeadz</title>
      </Head>
-        <PageTitle title="SneakerHeadz" tagline="Get the best sneakerz out there" />
+        <PageTitle title="SneakerHeadz" tagline="The only sneaker store you need" />
         <main>
             {
               products.map(product => <ProductCard key={product.uid} product={product} />)
             }
         </main>
+
      </>
+     
  
   )
 
