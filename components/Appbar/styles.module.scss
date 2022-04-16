@@ -1,0 +1,26 @@
+ .appbar {
+     padding: 1rem;
+     ul {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         width: 80%;
+         margin: 0 auto;
+     }
+     background-color: black;
+ }
+ 
+ .appbar div {
+     display: flex;
+     justify-content: flex-end;
+     gap: 4rem;
+ }
+ 
+ .appbar ul li a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .appbar ul li a:hover {
+     font-weight: bold;
+ }

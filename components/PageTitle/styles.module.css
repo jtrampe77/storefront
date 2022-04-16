@@ -1,19 +1,44 @@
  .pageTitle {
      text-align: center;
-     margin: 4rem 0;
+     margin: 0 0 4rem 0;
      padding-bottom: 2rem;
      border-bottom: 3px solid black;
+     background: linear-gradient(to bottom, rgba(117, 0, 0, 0.644), rgba(0, 0, 0, 1)), url("../../static//img/bg.jpg");
+     background-size: cover;
+     height: 100vh;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-attachment: fixed;
  }
  
  .pageTitle h1 {
-     font-size: clamp(4rem, 15vw, 5rem);
+     font-size: clamp(4rem, 15vw, 7rem);
      font-weight: 800;
-     color: #9f1239;
      line-height: 1;
  }
  
  .pageTitle p {
      font-size: clamp(1rem, 4vw, 1.5rem);
      font-weight: 600;
-     color: #000;
+ }
+ 
+ .pageTitle a {
+     width: 10%;
+     padding: 1rem 0;
+     margin: 3rem auto;
+     background-color: white;
+     color: black;
+     font-size: clamp(1rem, 4vw, 1.1rem);
+     font-weight: bold;
+     border-radius: 5px;
+     border: none;
+     background-color: white;
+ }
+ 
+ .pageTitle a:hover {
+     text-decoration: none;
+     color: white;
+     background-color: black;
  }

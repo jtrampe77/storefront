@@ -2,9 +2,8 @@ import { loadStripe } from '@stripe/stripe-js';
 import Head from 'next/head';
 import PageTitle from "../components/PageTitle/PageTitle"
 import ProductCard from "../components/ProductCard/ProductCard"
-
-
-
+import Appbar from '../components/Appbar/Appbar';
+import PageFooter from '../components/PageFooter/PageFooter';
 
 
 export default function Home(props) {
@@ -24,13 +23,14 @@ export default function Home(props) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>SneakerHeadz</title>
      </Head>
-        <PageTitle title="SneakerHeadz" tagline="The only sneaker store you need" />
-        <main>
+        <Appbar />
+        <PageTitle title="SneakerHeadz" tagline="The only sneaker store you need" button="Shop Now" />
+        <main id='main'>
             {
               products.map(product => <ProductCard key={product.uid} product={product} />)
             }
         </main>
-
+        <PageFooter />
      </>
      
  
